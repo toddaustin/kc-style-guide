@@ -6,6 +6,7 @@
   2. [Arrays](#arrays)
   3. [Strings](#strings)
   4. [Functions](#functions)
+  5. [Variables](#variables)
 
 ## Objects
 
@@ -31,19 +32,19 @@
 
   - [2.1](#2.1) Use the literal syntax for array creation
   
-  ```javascript
-  var utilityBelt = [];
-  ```
+    ```javascript
+    var utilityBelt = [];
+    ```
   
   - [2.2](#2.2) Store the length first to improve performance when iterating through arrays.
   
-  ```javascript
-  var utilityBelt = [];
-  var utilityCount = arr.length;
-  for(var i = 0; i < utilityCount; i++) {
-    \\ ...
-  }
-  ```
+    ```javascript
+    var utilityBelt = [];
+    var utilityCount = arr.length;
+    for(var i = 0; i < utilityCount; i++) {
+      \\ ...
+    }
+    ```
 
 ## Strings
 
@@ -52,15 +53,16 @@
   ```javascript
   batman.secretIdentity = 'Bruce Wayne';
   ```
+  
 ## Functions
 
   - [4.1](#4.1) Use function declarations instead of function expressions.
   
-  ```javascript
-  function driveBatmobile() {
-  
-  }
-  ```
+    ```javascript
+    function driveBatmobile() {
+      \\ ...
+    }
+    ```
   
   - [4.2](#4.1) Format functions using correct spacing
 
@@ -68,21 +70,21 @@
 
   - [5.1](#5.1) Always use ```var``` to declare variables. Write code that keeps the global namespace clean.
   
-  ```javascript
-  // bad
-  superPower = new SuperPower();
+    ```javascript
+    // bad
+    superPower = new SuperPower();
   
-  // good
-  var superPower = new SuperPower();
-  ```
+    // good
+    var superPower = new SuperPower();
+    ```
   
   - [5.2](#5.2) Declare all variables at the top of your function before you assign them. Write code the respects hoisting.
   
-  ```javascript
-  function throwBatarang() {
-    var batarang;
-    \\ ...
-    batarang = 10;
-    \\...
-  }
-  ```
+    ```javascript
+    function throwBatarang() {
+      var batarang;
+      \\ ...
+      batarang = 10;
+      \\...
+    }
+    ```
