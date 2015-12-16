@@ -15,10 +15,10 @@
 
 
 ## Indentation
-- [1.1](#1.1) Indent by 4 spaces]
+- [1.1](#1.1) Indent by 4 spaces
     
     ```css
-        h2 span {
+        .millenium-falcon {
             font-size: .7em;
             font-weight: normal;
         }
