@@ -17,51 +17,55 @@
 * Even though quotes around attributes is optional, always put quotes around attributes for readability.
 * Avoid trailing slashes in self-closing elements. For example, <code >&lt;br&gt;</code>, <code c>&lt;hr&gt;</code>, <code>&lt;img&gt;</code>, and <code>&lt;input&gt;</code>.
 * Use a new line for every block, list, or table element, and indent every such child element.
+  
    ```html
-<p>Everything is Awesome!</p>
+   <p>Everything is Awesome!</p>
    
-<ul>
-   <li>Gandalf</li>
-   <li>Aragorn</li>
-   <li>Frodo</li>
-   <li>Gimli</li>
-</ul>
+   <ul>
+      <li>Gandalf</li>
+      <li>Aragorn</li>
+      <li>Frodo</li>
+      <li>Gimli</li>
+   </ul>
 
-<label for="my-input">Some Input</label>
-<input type="radio" class="this-class" name="my-input">
+   <label for="my-input">Some Input</label>
+   <input type="radio" class="this-class" name="my-input">
 
-<table>
-   <thead>
-         <tr>
-            <th>Store Number</th>
-            <th>Manager</td>
-         </tr>
-   </thead>
-   <tbody>
-         <tr>
-            <td>AZP99</td>
-            <td>Joe Schmoe</td>
-        </tr>
-   <tbody>
-</table>
- ```
+   <table>
+      <thead>
+            <tr>
+               <th>Store Number</th>
+               <th>Manager</td>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+               <td>AZP99</td>
+               <td>Joe Schmoe</td>
+            </tr>
+      <tbody>
+   </table>
+   ```
+   
 ## Always Close Elements
 Don’t omit optional closing element tags.
    ```html
     <p>Always use closing tags.</p>
-```
+   ```
+   
 ## Capitalization
 All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).</p>
    ```html
     <label for="my-input"></label>
     <input class="this-class" name="my-input">
-```
-
+   ```
+   
 ## Doctype
 Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML documents.
    ```html
     <!Doctype html>
-```
+   ```
+
 ## HTML Quotation Marks
 When quoting attributes values, use double quotation marks.
    ```html
