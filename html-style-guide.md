@@ -95,7 +95,7 @@ When quoting attributes values, use double quotation marks.
 ## Including Stylesheets and Scripts
 Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
    ```html
-   <link href="style.css" rel="stylesheet" >
+   <link href="style.css" rel="stylesheet">
    <script src="my-script.js"></script>
 ```
 ## Indentation
