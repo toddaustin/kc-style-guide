@@ -120,7 +120,7 @@
     ```
 
 ## Quotation Marks
-- [10.1](#10.1) Use double (<code>""<code>) quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (<code>url()</code>).
+- [10.1](#10.1) Use double (<code>""</code>) quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (<code>url()</code>).
 
     ```css
         input[type="checkbox"] {
