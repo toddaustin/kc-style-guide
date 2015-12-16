@@ -14,7 +14,7 @@
 - [1.1](#1.1) Paragraphs of text should always be placed in a <code>&lt;p&gt;</code> tag. Never use multiple <code>&lt;br&gt;</code> tags.
 
   ```html
-        <p>Everything is Awesome!</p>
+        <p>My precious!</p>
   ```
 - [1.2](#1.2) Items in list form should always be in <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, or <code>&lt;dl&gt;</code>. Never use a set of <code * s="typ">&lt;div&gt;</code> or <code>&lt;p&gt;</code>.
 
@@ -24,19 +24,19 @@
             <li>Aragorn</li>
             <li>Frodo</li>
             <li>Gimli</li>
-       </ul>
+        </ul>
     ```
 - [1.3](#1.3) Every form input that has text attached should utilize a <code >&lt;label&gt;</code> tag. <strong>Especially radio or checkbox elements.</strong>
 
     ```html
-        <label for="my-input">Some Input</label>
+        <label for="my-input">Enter Rivendell</label>
         <input type="radio" class="this-class" name="my-input">
     ```
     
 - [1.4](#1.4) Even though quotes around attributes is optional, always put quotes around attributes for readability.
 
     ```html
-        <img src="images/my-picture.jpg" alt="Company">
+        <img src="images/saruman.jpg" alt="White Wizard">
     ```
     
 - [1.5](#1.5) Avoid trailing slashes in self-closing elements.
@@ -54,14 +54,14 @@
        <table>
           <thead>
                 <tr>
-                    <th>Store Number</th>
-                    <th>Manager</td>
+                    <th>Dwarf</th>
+                    <th>Elf</td>
                 </tr>
           </thead>
           <tbody>
                 <tr>
-                    <td>AZP99</td>
-                    <td>Joe Schmoe</td>
+                    <td>Gimli</td>
+                    <td>Legolas</td>
                 </tr>
           <tbody>
        </table>
@@ -76,7 +76,7 @@ Don’t omit optional closing element tags.
 ## Capitalization
 All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).</p>
    ```html
-    <label for="my-input"></label>
+    <label for="my-input">TreeBeard</label>
     <input class="this-class" name="my-input">
    ```
    
@@ -89,8 +89,8 @@ Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML docu
 ## HTML Quotation Marks
 When quoting attributes values, use double quotation marks.
    ```html
-    <img src="images/my-picture.jpg" alt="Company"> 
-    <h1 class="hello-world">Hello, world!</h1>
+    <img src="images/gandalf.jpg" alt="Gandalf"> 
+    <h1 class="secret-safe">Is it secret? Is it safe?</h1>
 ```
 ## Including Stylesheets and Scripts
 Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
@@ -102,7 +102,7 @@ Use simple syntax for linking style sheets and scripts. The <code class="typ">ty
 Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using spaces' or 'soft indent' setting for your code editor).
    ```html
    <ul>
-      <li>Fantastic</li>
-      <li>Great</li>
+      <li>Faramir</li>
+      <li>Bor0mir</li>
    </ul> 
 ```
