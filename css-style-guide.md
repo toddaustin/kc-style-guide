@@ -36,14 +36,44 @@
 ## Shorthand Properties
 - [2.1](#2.1) Use shorthand properties where possible
 
+    ```css
+        p {
+            font: 100%/1.1 arial, helvetica, sans-serif;
+            padding: 0 1em 2em;
+        }
+    ```
+
 ## Hexidecimal Notation
-- [3.1](#3.1) Use lowercase and shorthand hex values, e.g., <code>#aaa</code>.
+- [3.1](#3.1) Use lowercase and shorthand hex values.
+
+    ```css
+        div {
+            color: #fff;
+        }
+    ```
 
 ## Units After 0
-- [4.1](#4.1) Avoid specifying units for zero-values, e.g., <code>margin: 0</code>.
+- [4.1](#4.1) Avoid specifying units for zero-values.
+
+    ```css
+        div {
+            margin: 0 5px 10px 0;
+        }
+    ```
 
 ## Declaration Order
-- [5.1](#5.1) Alphabetize declarations.</li>
+- [5.1](#5.1) Alphabetize declarations.
+
+    ```css
+        .example {
+            background: #0e3557 url(../img/section-separator.png) 0 0 no-repeat;
+            border-radius: 2px;
+            color: #fff;
+            font: 16px arial, helvetica, sans-serif;
+            padding: 0;
+            margin: 5px 10px;
+        }
+    ```
 
 ## Declaration Stops
 - [6.1](#6.1) Include a semi-colon at the end of every declaration</li>
