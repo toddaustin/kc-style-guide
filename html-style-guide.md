@@ -68,3 +68,9 @@ When quoting attributes values, use double quotation marks.
     <img src="images/my-picture.jpg" alt="Company"> 
     <h1 class="hello-world">Hello, world!</h1>
 ```
+## Including Stylesheets and Scripts
+Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
+```html
+    <link href="style.css" rel="stylesheet" >
+    <script src="my-script.js"></script>
+```
