@@ -66,5 +66,5 @@ Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML docu
 When quoting attributes values, use double quotation marks.
 ```html
     <img src="images/my-picture.jpg" alt="Company"> 
-    <h1 class="hello-world">Hello, world!</h1></span>
+    <h1 class="hello-world">Hello, world!</h1>
 ```
