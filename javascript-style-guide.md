@@ -255,7 +255,7 @@
     ```javascript
     var utilityBelt = [];
     var utilityCount = arr.length;
-    for(var i = 0; i < utilityCount; i++) {
+    for (var i = 0; i < utilityCount; i++) {
         // ...
     }
     ```
