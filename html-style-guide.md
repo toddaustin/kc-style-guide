@@ -19,32 +19,32 @@
 * Use a new line for every block, list, or table element, and indent every such child element.
   
    ```html
-   <p>Everything is Awesome!</p>
-   
-   <ul>
-      <li>Gandalf</li>
-      <li>Aragorn</li>
-      <li>Frodo</li>
-      <li>Gimli</li>
-   </ul>
-
-   <label for="my-input">Some Input</label>
-   <input type="radio" class="this-class" name="my-input">
-
-   <table>
-      <thead>
-            <tr>
-               <th>Store Number</th>
-               <th>Manager</td>
-            </tr>
-      </thead>
-      <tbody>
-            <tr>
-               <td>AZP99</td>
-               <td>Joe Schmoe</td>
-            </tr>
-      <tbody>
-   </table>
+        <p>Everything is Awesome!</p>
+       
+       <ul>
+          <li>Gandalf</li>
+          <li>Aragorn</li>
+          <li>Frodo</li>
+          <li>Gimli</li>
+       </ul>
+    
+       <label for="my-input">Some Input</label>
+       <input type="radio" class="this-class" name="my-input">
+    
+       <table>
+          <thead>
+                <tr>
+                   <th>Store Number</th>
+                   <th>Manager</td>
+                </tr>
+          </thead>
+          <tbody>
+                <tr>
+                   <td>AZP99</td>
+                   <td>Joe Schmoe</td>
+                </tr>
+          <tbody>
+       </table>
    ```
    
 ## Always Close Elements
