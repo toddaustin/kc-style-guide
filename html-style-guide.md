@@ -21,11 +21,11 @@
    ```html
         <p>Everything is Awesome!</p>
        
-       <ul>
-          <li>Gandalf</li>
-          <li>Aragorn</li>
-          <li>Frodo</li>
-          <li>Gimli</li>
+        <ul>
+            <li>Gandalf</li>
+            <li>Aragorn</li>
+            <li>Frodo</li>
+            <li>Gimli</li>
        </ul>
     
        <label for="my-input">Some Input</label>
@@ -34,14 +34,14 @@
        <table>
           <thead>
                 <tr>
-                   <th>Store Number</th>
-                   <th>Manager</td>
+                    <th>Store Number</th>
+                    <th>Manager</td>
                 </tr>
           </thead>
           <tbody>
                 <tr>
-                   <td>AZP99</td>
-                   <td>Joe Schmoe</td>
+                    <td>AZP99</td>
+                    <td>Joe Schmoe</td>
                 </tr>
           <tbody>
        </table>
