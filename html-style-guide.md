@@ -103,6 +103,6 @@ Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using s
    ```html
    <ul>
       <li>Faramir</li>
-      <li>Bor0mir</li>
+      <li>Boromir</li>
    </ul> 
 ```
