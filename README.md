@@ -45,7 +45,7 @@
 
 ## Strings
 
-- [3.1](#3.1) Use single quotes `''` for strings.
+- [3.1](#3.1) Use single quotes ```''``` for strings.
 
     ```javascript
     batman.secretIdentity = 'Bruce Wayne';
@@ -86,7 +86,7 @@
 - [6.1](#6.1) Use ```===``` and ```!==``` instead of ```==``` and ```!=```.
 
     ```javascript
-    if(id === 'Bruce Wayne) {
+    if(id === 'Bruce Wayne') {
         \\ ...
     }
     ```
@@ -117,14 +117,14 @@
 
 - [7.1](#7.1) Use ```/** ... */``` for multi-line comments. Write descriptively.
 
- ```javascript
- /**
-  * Return an array of the superHero's super power
-  */
- function getSuperPower(superHero) {
+    ```javascript
+    /**
+    * Return an array of the superHero's super power
+    */
+    function getSuperPower(superHero) {
     // ...
- }
- ```
+    }
+    ```
 
 - [7.2](#7.2) Use ```//``` for single line comments. Place single line comments on a new line above the subject of the comment. Put an empty line before the comment unless it's on the first line of a block.
 
@@ -170,6 +170,7 @@
         alert(superPowers);
     }
     ```
+
 - [8.4](#8.4) Place 1 space between operators.
 
     ```javascript
@@ -196,6 +197,7 @@
     ```javascript
     var batman = { secretIdentity: 'Bruce Wayne' };
     ```
+
 ## Semicolons
 
 - [9.1](#9.1) ***Yes.***
