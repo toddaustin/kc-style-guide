@@ -19,31 +19,31 @@
 * Use a new line for every block, list, or table element, and indent every such child element.
 ```html
    <p>Everything is Awesome!</p>
+   
+<ul>
+   <li>Gandalf</li>
+   <li>Aragorn</li>
+   <li>Frodo</li>
+   <li>Gimli</li>
+</ul>
 
-    <ul>
-      <li>Gandalf</li>
-      <li>Aragorn</li>
-      <li>Frodo</li>
-      <li>Gimli</li>
-    </ul>
-    
-    <label for="my-input">Some Input</label>
-    <input type="radio" class="this-class" name="my-input">
-    
-     <table>
-      <thead>
+<label for="my-input">Some Input</label>
+<input type="radio" class="this-class" name="my-input">
+
+<table>
+    <thead>
         <tr>
-          <th>Store Number</th>
-          <th>Manager</td>
+            <th>Store Number</th>
+            <th>Manager</td>
         </tr>
-      </thead>
-      <tbody>
+    </thead>
+    <tbody>
         <tr>
-          <td>AZP99</td>
-          <td>Joe Schmoe</td>
+            <td>AZP99</td>
+            <td>Joe Schmoe</td>
         </tr>
-      <tbody>
-    </table>
+        <tbody>
+</table>
  ```
 ## Always Close Elements
 Don’t omit optional closing element tags.
@@ -73,4 +73,12 @@ Use simple syntax for linking style sheets and scripts. The <code class="typ">ty
 ```html
     <link href="style.css" rel="stylesheet" >
     <script src="my-script.js"></script>
+```
+## Indentation
+Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using spaces' or 'soft indent' setting for your code editor).
+```html
+   <ul>
+      <li>Fantastic</li>
+      <li>Great</li>
+   </ul> 
 ```
