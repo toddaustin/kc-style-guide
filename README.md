@@ -76,9 +76,9 @@
     ```javascript
     function throwBatarang() {
         var batarang;
-        \\ ...
+        // ...
         batarang = 10;
-        \\...
+        // ...
     }
     ```
 
@@ -88,7 +88,7 @@
 
     ```javascript
     if(id === 'Bruce Wayne') {
-        \\ ...
+        // ...
     }
     ```
 
@@ -96,11 +96,11 @@
 
     ```javascript
         if(isBatman) {
-            \\ ...
+            // ...
         }
         
         if(utilityBelt.length) {
-            \\ ...
+            // ...
         }
     ```
 
@@ -108,9 +108,9 @@
 
     ```javascript
     if(isBatman) {
-        \\ ...
+        // ...
     } else {
-        \\ ...
+        // ...
     }
     ```
 
@@ -123,7 +123,7 @@
     * Return an array of the superHero's super power
     */
     function getSuperPower(superHero) {
-    // ...
+        // ...
     }
     ```
 
@@ -147,7 +147,7 @@
 
     ```javascript
     function() {
-    ....var superPower;
+        var superPower;
     }
     ```
 
@@ -256,7 +256,7 @@
     var utilityBelt = [];
     var utilityCount = arr.length;
     for(var i = 0; i < utilityCount; i++) {
-        \\ ...
+        // ...
     }
     ```
 
@@ -265,6 +265,6 @@
     ```javascript
     var search = $('.search');
     search.hide();
-    \\ ...
+    // ...
     search.show();
     ```
