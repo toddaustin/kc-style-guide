@@ -17,7 +17,7 @@
 * Even though quotes around attributes is optional, always put quotes around attributes for readability.
 * Avoid trailing slashes in self-closing elements. For example, <code >&lt;br&gt;</code>, <code c>&lt;hr&gt;</code>, <code>&lt;img&gt;</code>, and <code>&lt;input&gt;</code>.
 * Use a new line for every block, list, or table element, and indent every such child element.
-```html
+   ```html
 <p>Everything is Awesome!</p>
    
 <ul>
@@ -47,36 +47,36 @@
  ```
 ## Always Close Elements
 Don’t omit optional closing element tags.
-```html
+   ```html
     <p>Always use closing tags.</p>
 ```
 ## Capitalization
 All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).</p>
-```html
+   ```html
     <label for="my-input"></label>
     <input class="this-class" name="my-input">
 ```
 
 ## Doctype
 Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML documents.
-```html
+   ```html
     <!Doctype html>
 ```
 ## HTML Quotation Marks
 When quoting attributes values, use double quotation marks.
-```html
+   ```html
     <img src="images/my-picture.jpg" alt="Company"> 
     <h1 class="hello-world">Hello, world!</h1>
 ```
 ## Including Stylesheets and Scripts
 Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
-```html
+   ```html
    <link href="style.css" rel="stylesheet" >
    <script src="my-script.js"></script>
 ```
 ## Indentation
 Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using spaces' or 'soft indent' setting for your code editor).
-```html
+   ```html
    <ul>
       <li>Fantastic</li>
       <li>Great</li>
