@@ -12,25 +12,45 @@
 ## General HTML Formatting
 
 - [1.1](#1.1) Paragraphs of text should always be placed in a <code>&lt;p&gt;</code> tag. Never use multiple <code>&lt;br&gt;</code> tags.
-- [1.2](#1.2) Items in list form should always be in <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, or <code>&lt;dl&gt;</code>. Never use a set of <code * s="typ">&lt;div&gt;</code> or <code>&lt;p&gt;</code>.
-- [1.3](#1.3) Every form input that has text attached should utilize a <code >&lt;label&gt;</code> tag. <strong>Especially radio or checkbox elements.</strong>
-- [1.4](#1.4) Even though quotes around attributes is optional, always put quotes around attributes for readability.
-- [1.5](#1.5) Avoid trailing slashes in self-closing elements. For example, <code >&lt;br&gt;</code>, <code c>&lt;hr&gt;</code>, <code>&lt;img&gt;</code>, and <code>&lt;input&gt;</code>.
-- [1.6](#1.6) Use a new line for every block, list, or table element, and indent every such child element.
-  
-   ```html
+
+  ```html
         <p>Everything is Awesome!</p>
-       
+  ```
+- [1.2](#1.2) Items in list form should always be in <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, or <code>&lt;dl&gt;</code>. Never use a set of <code * s="typ">&lt;div&gt;</code> or <code>&lt;p&gt;</code>.
+
+  ```html
         <ul>
             <li>Gandalf</li>
             <li>Aragorn</li>
             <li>Frodo</li>
             <li>Gimli</li>
        </ul>
+    ```
+- [1.3](#1.3) Every form input that has text attached should utilize a <code >&lt;label&gt;</code> tag. <strong>Especially radio or checkbox elements.</strong>
+
+    ```html
+        <label for="my-input">Some Input</label>
+        <input type="radio" class="this-class" name="my-input">
+    ```
     
-       <label for="my-input">Some Input</label>
-       <input type="radio" class="this-class" name="my-input">
+- [1.4](#1.4) Even though quotes around attributes is optional, always put quotes around attributes for readability.
+
+    ```html
+        <img src="images/my-picture.jpg" alt="Company">
+    ```
     
+- [1.5](#1.5) Avoid trailing slashes in self-closing elements.
+
+    ```html
+        <br> 
+        <hr> 
+        <img>
+        <input>
+    ```
+
+- [1.6](#1.6) Use a new line for every block, list, or table element, and indent every such child element.
+  
+   ```html
        <table>
           <thead>
                 <tr>
