@@ -18,7 +18,7 @@
 * Avoid trailing slashes in self-closing elements. For example, <code >&lt;br&gt;</code>, <code c>&lt;hr&gt;</code>, <code>&lt;img&gt;</code>, and <code>&lt;input&gt;</code>.
 * Use a new line for every block, list, or table element, and indent every such child element.
 ```html
-   <p>Everything is Awesome!</p>
+<p>Everything is Awesome!</p>
    
 <ul>
    <li>Gandalf</li>
@@ -31,18 +31,18 @@
 <input type="radio" class="this-class" name="my-input">
 
 <table>
-    <thead>
-        <tr>
+   <thead>
+         <tr>
             <th>Store Number</th>
             <th>Manager</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
+         </tr>
+   </thead>
+   <tbody>
+         <tr>
             <td>AZP99</td>
             <td>Joe Schmoe</td>
         </tr>
-        <tbody>
+   <tbody>
 </table>
  ```
 ## Always Close Elements
@@ -71,8 +71,8 @@ When quoting attributes values, use double quotation marks.
 ## Including Stylesheets and Scripts
 Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
 ```html
-    <link href="style.css" rel="stylesheet" >
-    <script src="my-script.js"></script>
+   <link href="style.css" rel="stylesheet" >
+   <script src="my-script.js"></script>
 ```
 ## Indentation
 Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using spaces' or 'soft indent' setting for your code editor).
