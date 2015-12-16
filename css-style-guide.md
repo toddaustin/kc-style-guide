@@ -10,7 +10,8 @@
 6. [Declaration Stops](#declaration-stops)
 7. [Property Name Stops](#property-name-stops)
 8. [Rule Separation](#rule-separation)
-9. [Quotation Marks](#quotation-marks)
+9. [Selector and Declaration Separation](#selector-and-declaration-separation) 
+10. [Quotation Marks](#quotation-marks)
 
 
 ## Indentation
@@ -47,7 +48,7 @@
 - [3.1](#3.1) Use lowercase and shorthand hex values.
 
     ```css
-        div {
+        .hoth {
             color: #fff;
         }
     ```
@@ -56,7 +57,7 @@
 - [4.1](#4.1) Avoid specifying units for zero-values.
 
     ```css
-        div {
+        .jawas {
             margin: 0 5px 10px 0;
         }
     ```
@@ -65,8 +66,8 @@
 - [5.1](#5.1) Alphabetize declarations.
 
     ```css
-        .example {
-            background: #0e3557 url(../img/section-separator.png) 0 0 no-repeat;
+        .dagobah {
+            background: #0e3557 url(../img/yoda.png) 0 0 no-repeat;
             border-radius: 2px;
             color: #fff;
             font: 16px arial, helvetica, sans-serif;
@@ -76,14 +77,58 @@
     ```
 
 ## Declaration Stops
-- [6.1](#6.1) Include a semi-colon at the end of every declaration</li>
+- [6.1](#6.1) Include a semi-colon at the end of every declaration
+
+    ```css
+        .death-star {
+            margin: 20px 0 0 35px;
+            padding: 25px;
+        }
+    ```
 
 ## Property Name Stops
-- [7.1](#7.1) Include a single space after the colon of a property.</li>
+- [7.1](#7.1) Include a single space after the colon of a property.
+
+    ```css
+        .darth-vader {
+            margin: 0;
+        }
+    ```
 
 ## Rule Separation
-- [8.1](#8.1) Separate each ruleset by a blank line.</li>
+- [8.1](#8.1) Separate each ruleset by a blank line.
+
+    ```css
+        h2 {
+            color: #1d3b53;
+        }
+
+        h2 span {
+            font-size: .5em;
+            font-weight: normal;
+      }
+    ```
+## Selector and Declaration Separation
+- [9.1](#9.1) Separate selectors and declaration by new lines
+
+    ```css
+        .stormtrooper,
+        .emperor-palpatine,
+        .boba-fett {
+            background-color: #0e3557;
+        }
+    ```
 
 ## Quotation Marks
-- [9.1](#9.1) Use double quotes e.g., <code>content: ""</code>.</li>
-- [9.2](#9.2) Quote attribute values in selectors, e.g., <code>input[type="checkbox"]</code>.</li>
+- [10.1](#10.1) Use double ("") quotation marks for attribute selectors or property values. Do not use quotation marks in URI values (url()).
+
+    ```css
+        input[type="checkbox"] {
+            padding: 5px
+        }
+        
+        .chewbacca{
+             background-image: url(../img/palpatine.png);
+        }
+        
+    ```
