@@ -27,8 +27,8 @@
       <li>Gimli</li>
     </ul>
     
-    <label for='my-input'>Some Input</label>
-    <input type='radio' class='this-class' name='my-input'>
+    <label for="my-input">Some Input</label>
+    <input type="radio" class="this-class" name="my-input">
     
      <table>
       <thead>
@@ -53,12 +53,18 @@ Don’t omit optional closing element tags.
 ## Capitalization
 All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).</p>
 ```html
-    <label for='my-input'></label>
-    <input class='this-class' name='my-input'>
+    <label for="my-input"></label>
+    <input class="this-class" name="my-input">
 ```
 
 ## Doctype
 Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML documents.
 ```html
     <!Doctype html>
+```
+## HTML Quotation Marks
+When quoting attributes values, use double quotation marks.
+```html
+    <img src="images/my-picture.jpg" alt="Company"> 
+    <h1 class="hello-world">Hello, world!</h1></span>
 ```
