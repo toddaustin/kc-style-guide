@@ -26,7 +26,6 @@
 
     ```css
     @media screen, projection {
-    
         html {
             background: #fff;
             color: #444;
