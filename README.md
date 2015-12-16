@@ -191,7 +191,7 @@
 
     ```javascript
     var utilityBelt = [batarang,bathook,kryptonite];
-    console.log(utilityBlet[0]);
+    console.log(utilityBelt[0]);
     ```
 
 - [8.6](#8.6) Add spaces inside curly braces.
