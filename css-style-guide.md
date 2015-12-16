@@ -128,7 +128,7 @@
         }
         
         .chewbacca{
-             background-image: url(../img/palpatine.png);
+             background-image: url(../img/laugh-it-up-furball.png);
         }
         
     ```
