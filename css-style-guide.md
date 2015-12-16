@@ -43,4 +43,4 @@
 
 ## Quotation Marks
 - [10.1](#10.1) Use double quotes e.g., <code>content: ""</code>.</li>
-- [10.2.1](#10.2.1) Quote attribute values in selectors, e.g., <code>input[type="checkbox"]</code>.</li>
+- [10.1](#10.1) Quote attribute values in selectors, e.g., <code>input[type="checkbox"]</code>.</li>
