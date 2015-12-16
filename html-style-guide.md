@@ -68,38 +68,38 @@
    ```
    
 ## Always Close Elements
-Don’t omit optional closing element tags.
+- [2.1](#2.1) Don’t omit optional closing element tags.
    ```html
     <p>Always use closing tags.</p>
    ```
    
 ## Capitalization
-All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).</p>
+- [3.1](#3.1) All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).</p>
    ```html
     <label for="my-input">TreeBeard</label>
     <input class="this-class" name="my-input">
    ```
    
 ## Doctype
-Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML documents.
+- [4.1](#4.1) Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML documents.
    ```html
     <!Doctype html>
    ```
 
 ## HTML Quotation Marks
-When quoting attributes values, use double quotation marks.
+- [5.1](#5.1) When quoting attributes values, use double quotation marks.
    ```html
     <img src="images/gandalf.jpg" alt="Gandalf"> 
     <h1 class="secret-safe">Is it secret? Is it safe?</h1>
 ```
 ## Including Stylesheets and Scripts
-Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
+- [6.1](#6.1) Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
    ```html
    <link href="style.css" rel="stylesheet">
    <script src="my-script.js"></script>
 ```
 ## Indentation
-Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using spaces' or 'soft indent' setting for your code editor).
+- [7.1](#7.1) Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using spaces' or 'soft indent' setting for your code editor).
    ```html
    <ul>
       <li>Faramir</li>
