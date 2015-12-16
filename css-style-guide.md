@@ -127,7 +127,7 @@
             padding: 5px
         }
         
-        .chewbacca{
+        .chewbacca {
              background-image: url(../img/laugh-it-up-fuzzball.png);
         }
         
