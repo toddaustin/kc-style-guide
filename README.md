@@ -81,6 +81,7 @@
         \\...
     }
     ```
+
 ## Comparison Operators
 
 - [6.1](#6.1) Use ```===``` and ```!==``` instead of ```==``` and ```!=```.
@@ -139,6 +140,7 @@
         return superPowers;
     }
     ```
+
 ## Whitespace
 
 - [8.1](#8.1) Indent using 4 spaces.
