@@ -9,20 +9,20 @@
 5. Units After 0
 6. 
 
-- [1.1] Lowercase
+- [1.1](#1.1) Lowercase
 *Use only lowercase
 
-- [2.1] Indentation
+- [2.1](#2.1) Indentation
 *Indent by 4 spaces
 
-- [3.1] Shorthand Properties
+- [3.1](#3.1) Shorthand Properties
 Use shorthand properties where possible
 
-- [4.1] Hexidecimal Notation
+- [4.1](#4.1) Hexidecimal Notation
 <li>Use lowercase and shorthand hex values, e.g., <code>#aaa</code>.</li>
 
 
-- [5.1] Units After 0
+- [5.1](#5.1) Units After 0
 <li><em>Where allowed</em>, avoid specifying units for zero-values, e.g., <code>margin: 0</code>.</li>
 
 
