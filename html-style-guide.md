@@ -18,91 +18,106 @@
   ```
 - [1.2](#1.2) Items in list form should always be in <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, or <code>&lt;dl&gt;</code>. Never use a set of <code * s="typ">&lt;div&gt;</code> or <code>&lt;p&gt;</code>.
 
-  ```html
-        <ul>
-            <li>Gandalf</li>
-            <li>Aragorn</li>
-            <li>Frodo</li>
-            <li>Gimli</li>
-        </ul>
+    ```html
+    <ul>
+        <li>Gandalf</li>
+        <li>Aragorn</li>
+        <li>Frodo</li>
+        <li>Gimli</li>
+    </ul>
     ```
+
 - [1.3](#1.3) Every form input that has text attached should utilize a <code >&lt;label&gt;</code> tag. <strong>Especially radio or checkbox elements.</strong>
 
     ```html
-        <label for="my-input">Enter Rivendell</label>
-        <input type="radio" class="this-class" name="my-input">
+    <label for="my-input">Enter Rivendell</label>
+    <input type="radio" class="this-class" name="my-input">
     ```
     
 - [1.4](#1.4) Even though quotes around attributes is optional, always put quotes around attributes for readability.
 
     ```html
-        <img src="images/saruman.jpg" alt="White Wizard">
+    <img src="images/saruman.jpg" alt="White Wizard">
     ```
     
 - [1.5](#1.5) Avoid trailing slashes in self-closing elements.
 
     ```html
-        <br> 
-        <hr> 
-        <img>
-        <input>
+    <br> 
+    <hr> 
+    <img>
+    <input>
     ```
 
 - [1.6](#1.6) Use a new line for every block, list, or table element, and indent every such child element.
   
-   ```html
-       <table>
-          <thead>
-                <tr>
-                    <th>Dwarf</th>
-                    <th>Elf</td>
-                </tr>
-          </thead>
-          <tbody>
-                <tr>
-                    <td>Gimli</td>
-                    <td>Legolas</td>
-                </tr>
-          <tbody>
-       </table>
-   ```
+    ```html
+    <table>
+        <thead>
+            <tr>
+                <th>Dwarf</th>
+                <th>Elf</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gimli</td>
+                <td>Legolas</td>
+            </tr>
+        <tbody>
+    </table>
+    ```
    
 ## Always Close Elements
+
 - [2.1](#2.1) Don’t omit optional closing element tags.
-   ```html
+
+    ```html
     <p>Always use closing tags.</p>
-   ```
+    ```
    
 ## Capitalization
+
 - [3.1](#3.1) All code has to be lowercase: This applies to HTML element names, attributes, attribute values (unless text/CDATA), CSS selectors, properties, and property values (with the exception of strings).</p>
-   ```html
+
+    ```html
     <label for="my-input">TreeBeard</label>
     <input class="this-class" name="my-input">
-   ```
+    ```
    
 ## Doctype
+
 - [4.1](#4.1) Always use the HTML5 doctype. HTML5 (HTML syntax) is preferred for all HTML documents.
-   ```html
+
+    ```html
     <!Doctype html>
-   ```
+    ```
 
 ## HTML Quotation Marks
+
 - [5.1](#5.1) When quoting attributes values, use double quotation marks.
-   ```html
+
+    ```html
     <img src="images/gandalf.jpg" alt="Gandalf"> 
     <h1 class="secret-safe">Is it secret? Is it safe?</h1>
-```
+    ```
+    
 ## Including Stylesheets and Scripts
+
 - [6.1](#6.1) Use simple syntax for linking style sheets and scripts. The <code class="typ">type</code> attribute for style sheets and scripts is unnecessary.
-   ```html
-   <link href="style.css" rel="stylesheet">
-   <script src="my-script.js"></script>
-```
+   
+    ```html
+    <link href="style.css" rel="stylesheet">
+    <script src="my-script.js"></script>
+    ```
+
 ## Indentation
+
 - [7.1](#7.1) Indent by 4 spaces at a time. Don't use tabs (unless you set the 'indent using spaces' or 'soft indent' setting for your code editor).
-   ```html
-   <ul>
-      <li>Faramir</li>
-      <li>Boromir</li>
-   </ul> 
-```
+   
+    ```html
+    <ul>
+        <li>Faramir</li>
+        <li>Boromir</li>
+    </ul> 
+    ```
