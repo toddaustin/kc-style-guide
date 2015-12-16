@@ -87,7 +87,7 @@
 - [6.1](#6.1) Use ```===``` and ```!==``` instead of ```==``` and ```!=```.
 
     ```javascript
-    if(id === 'Bruce Wayne') {
+    if (id === 'Bruce Wayne') {
         // ...
     }
     ```
@@ -95,11 +95,11 @@
 - [6.2](#6.2) Use shortcuts.
 
     ```javascript
-        if(isBatman) {
+        if (isBatman) {
             // ...
         }
         
-        if(utilityBelt.length) {
+        if (utilityBelt.length) {
             // ...
         }
     ```
@@ -107,7 +107,7 @@
 - [6.3](#6.3) Place your ```else if``` and ```else``` on the same line as your ```if``` closing brace.
 
     ```javascript
-    if(isBatman) {
+    if (isBatman) {
         // ...
     } else {
         // ...
@@ -167,7 +167,7 @@
 - [8.3](#8.3) Place 1 space before the opening parenthesis in control statements (```if```, ```while``` etc.). Place no space before the argument list in function calls and declarations.
 
     ```javacript
-    if(isBatman) {
+    if (isBatman) {
         var superPowers = getSuperPower(batman);
         alert(superPowers);
     }
