@@ -1,4 +1,4 @@
-# Knowledge Center Javascript Style Guide
+# Javascript Style Guide
 
 ## Table of Contents
 
@@ -263,8 +263,8 @@
 - [12.2](#12.2) Store jQuery lookups if you are using it more than once.
 
     ```javascript
-    var search = $('.search');
-    search.hide();
+    var $search = $('.search');
+    $search.hide();
     // ...
-    search.show();
+    $search.show();
     ```
