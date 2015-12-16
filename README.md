@@ -57,7 +57,7 @@
 
     ```javascript
     function driveBatmobile() {
-        \\ ...
+        // ...
     }
     ```
 
