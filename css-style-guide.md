@@ -108,6 +108,7 @@
             font-weight: normal;
       }
     ```
+
 ## Selector and Declaration Separation
 - [9.1](#9.1) Separate selectors and declaration by new lines
 
